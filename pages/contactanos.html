@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - Estilo Cine</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial Black', sans-serif;
+            background: #0a0a0a;
+            color: #fff;
+        }
+
+        .cine-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+
+        .titulo-cine {
+            font-size: 2.5em;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin-bottom: 40px;
+            text-align: center;
+            border-bottom: 3px solid #8a6b06;
+            padding-bottom: 15px;
+        }
+
+        .formulario-cine {
+            display: grid;
+            gap: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .input-cine {
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid #333;
+            padding: 15px;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        .input-cine:focus {
+            outline: none;
+            border-color: #D9C06E;
+        }
+
+        .boton-cine {
+            background: #D9C06E;
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            cursor: pointer;
+        }
+
+        .info-cine {
+            margin-top: 50px;
+            text-align: center;
+            opacity: 0.8;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .titulo-cine {
+                font-size: 2em;
+            }
+            
+            .formulario-cine {
+                padding: 0 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="cine-container">
+        <h2 class="titulo-cine">Contáctanos</h2>
+        
+        <form class="formulario-cine">
+            <input type="text" class="input-cine" placeholder="Nombre" required>
+            <input type="email" class="input-cine" placeholder="Email" required>
+            <textarea class="input-cine" rows="5" placeholder="Mensaje" required></textarea>
+            <button type="submit" class="boton-cine">Enviar Mensaje</button>
+        </form>
+
+        <div class="info-cine">
+            <p>📌 3er nivel, P.º Gral. Escalón, San Salvador</p>
+            <p>📞 +1 234 567 890</p>
+            <p>🎥 Síguenos en @cinematheatre</p>
+        </div>
+    </section>
+</body>
+</html>
