@@ -1,0 +1,27 @@
+body.bg-custom {
+    background-color: #141A25 !important;
+    color: #ffffff;
+  }
+  
+  .bg-navbar {
+    background-color: #0E0F17 !important;
+  }
+  
+  .text-secondary-custom {
+    color: #858585 !important;
+  }
+  
+  a.text-secondary-custom:hover {
+    color: #ffffff;
+  }
+  
+  .btn-warning {
+    background-color: #040c29;
+    color: #ffffff;
+    border: none;
+  }
+  
+  .btn-warning:hover {
+    background-color: #e65c00;
+  }
+  
