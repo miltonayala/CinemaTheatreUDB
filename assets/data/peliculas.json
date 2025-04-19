@@ -1,0 +1,124 @@
+[
+    {
+        "id": "1",
+        "nombre": "Colorful Stage: Miku no puede cantar",
+        "genero": "Animado",
+        "director": "Hata Hiroyuki",
+        "elenco": [
+            {
+                "nombre": "Fujita Saki",
+                "rol": "Voice Actor"
+            },
+            {
+                "nombre": "Noguchi Ruriko",
+                "rol": "Voice Actor"
+            },
+            {
+                "nombre": "Isobe Karin",
+                "rol": "Voice Actor"
+            }
+        ],
+        "productores": [
+            {
+                "nombre": "Mary Parent",
+                "rol": "Producer"
+            },
+            {
+                "nombre": "Roy Lee",
+                "rol": "Producer"
+            }
+        ],
+        "imagenes": [
+            "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png",
+            "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png",
+            "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png"
+        ],
+        "sinopsis": "Hatsune Miku, la icónica diva virtual, lucha por hacer llegar su música a todos, pero algo no está funcionando. Es entonces cuando se cruza con Ichika, una joven cantante con un talento único para tocar los corazones de las personas durante sus conciertos callejeros. Desesperada, Miku le pide ayuda para que su música alcance a aquellos que más la necesitan. Juntas, se embarcarán en una aventura mágica y musical que cambiará sus vidas para siempre. Y al terminar la película… No te pierdas el Mini-Concierto exclusivo de Hatsune Miku en Colorful Stage!",
+        "imagen": "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png",
+        "clasificacion": "A - Todo Público",
+        "duracion": "1:51",
+        "formato": "2D",
+        "subtitulo": "SUBTITLE",
+        "fechaEstreno": "2025-04-17",
+        "restricciones": "A - Todo Público",
+        "produccion": "-",
+        "horarios": [
+            {
+                "fecha": "2025-04-16",
+                "horas": [
+                    "14:00",
+                    "17:30",
+                    "20:00"
+                ]
+            },
+            {
+                "fecha": "2025-04-17",
+                "horas": [
+                    "15:00",
+                    "18:30"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "nombre": "Colorful Stage: Miku no puede cantar",
+        "genero": "Animado",
+        "director": "Hata Hiroyuki",
+        "elenco": [
+            {
+                "nombre": "Fujita Saki",
+                "rol": "Voice Actor"
+            },
+            {
+                "nombre": "Noguchi Ruriko",
+                "rol": "Voice Actor"
+            },
+            {
+                "nombre": "Isobe Karin",
+                "rol": "Voice Actor"
+            }
+        ],
+        "productores": [
+            {
+                "nombre": "Mary Parent",
+                "rol": "Producer"
+            },
+            {
+                "nombre": "Roy Lee",
+                "rol": "Producer"
+            }
+        ],
+        "imagenes": [
+            "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png",
+            "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png",
+            "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png"
+        ],
+        "sinopsis": "Hatsune Miku, la icónica diva virtual, lucha por hacer llegar su música a todos, pero algo no está funcionando. Es entonces cuando se cruza con Ichika, una joven cantante con un talento único para tocar los corazones de las personas durante sus conciertos callejeros. Desesperada, Miku le pide ayuda para que su música alcance a aquellos que más la necesitan. Juntas, se embarcarán en una aventura mágica y musical que cambiará sus vidas para siempre. Y al terminar la película… No te pierdas el Mini-Concierto exclusivo de Hatsune Miku en Colorful Stage!",
+        "imagen": "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png",
+        "clasificacion": "A - Todo Público",
+        "duracion": "1:51",
+        "formato": "2D",
+        "subtitulo": "SUBTITLE",
+        "fechaEstreno": "2025-04-17",
+        "restricciones": "A - Todo Público",
+        "produccion": "-",
+        "horarios": [
+            {
+                "fecha": "2025-04-16",
+                "horas": [
+                    "14:00",
+                    "17:30",
+                    "20:00"
+                ]
+            },
+            {
+                "fecha": "2025-04-17",
+                "horas": [
+                    "15:00",
+                    "18:30"
+                ]
+            }
+        ]
+    }
+]
