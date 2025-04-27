@@ -1,12 +1,431 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<title>Acerca de Nosotros</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrenos de Cine - CineMax</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/stylesCinema.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/stylesCinema.css">
+
 </head>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+    <style>
+        :root {
+    --bs-nav-bg: #0E0F17;
+    --bs-main-bg: #141A25;
+    --bs-disabled-text: #858585;
+}
+
+body {
+    background-color: var(--bs-main-bg);
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: var(--bs-nav-bg);
+    padding: 1rem;
+}
+
+.movie-card {
+    transition: transform 0.2s;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+}
+
+.movie-poster {
+    background-size: cover;
+    border-radius: 5px;
+    aspect-ratio: 2/3;
+    width: 100%;
+    height: auto;
+}
+
+.btn-custom {
+    background-color: #E50914;
+    border-color: #E50914;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-custom:hover {
+    background-color: #b80711;
+    border-color: #b80711;
+}
+
+.featured-movie {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.movie-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+
+
+@media (max-width: 100px) {
+    .movie-poster {
+        aspect-ratio: 16/9; 
+    }
+
+    .featured-movie {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-image {
+        width: 100%; 
+        max-width: 100%; 
+    }
+
+    .movie-image img {
+        max-width: 100%; 
+        height: auto;
+    }
+}
+
+
+@media (max-width: 200px) {
+    .movie-poster {
+        aspect-ratio: 16/9; 
+    }
+
+    .featured-movie {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-image {
+        width: 100%; 
+        max-width: 100%; 
+    }
+
+    .movie-image img {
+        max-width: 100%; 
+        height: auto;
+    }
+}
+
+
+
+
+@media (max-width: 480px) {
+    .movie-poster {
+        aspect-ratio: 16/9; 
+    }
+
+    .featured-movie {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-image {
+        width: 100%; 
+        max-width: 100%; 
+    }
+
+    .movie-image img {
+        max-width: 100%; 
+        height: auto;
+    }
+}
+
+@media (max-width: 375px) {
+    .movie-poster {
+        aspect-ratio: 16/9; 
+    }
+
+    .featured-movie {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-image {
+        width: 100%; 
+        max-width: 100%; 
+    }
+
+    .movie-image img {
+        max-width: 100%; 
+        height: auto;
+    }
+}
+
+
+
+@media (max-width: 390px) {
+    .movie-poster {
+        aspect-ratio: 16/9; 
+    }
+
+    .featured-movie {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-image {
+        width: 100%; 
+        max-width: 100%; 
+    }
+
+    .movie-image img {
+        max-width: 100%; 
+        height: auto;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .movie-poster {
+        aspect-ratio: 16/9; 
+    }
+
+    .featured-movie {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-image {
+        width: 100%; 
+        max-width: 100%; 
+    }
+
+    .movie-image img {
+        max-width: 100%; 
+        height: auto;
+    }
+}
+
+/* Para pantallas medianas (tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .movie-poster {
+        aspect-ratio: 3/2; 
+    }
+
+    .featured-movie {
+        gap: 1rem; 
+    }
+
+    .movie-image {
+        width: 40%; 
+    }
+}
+
+/* Para pantallas grandes (escritorio) */
+@media (min-width: 1025px) {
+    .movie-poster {
+        aspect-ratio: 2/3; 
+    }
+
+    .featured-movie {
+        gap: 2rem; 
+    }
+
+    .movie-image {
+        width: 30%; 
+    }
+}
+    
+  
+
+
+    </style>
+
+
+    <div class="bg-global overflow-hidden content">
+        <!-- Header principal -->
+        <header class="d-flex bg-menu align-items-center justify-content-between">
+          <div class="text-white px-4"><img src="/pages/Images/logo/official_logo_cinema_teathre.PNG" style="width: 140px;"></div>
+  
+          <!-- Icono para móvil -->
+          <div class="d-md-none text-white px-4" id="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+  
+          <!-- Menu horizontal PC -->
+          <nav class="d-none d-md-block">
+            <ul class="list-unstyled d-flex m-0">
+              <li>
+                <a href="cartelera.html" class="text-white px-4 text-decoration-none">Cartelera</a>
+              </li>
+              <li>
+                <a href="menu_dulceria.html" class="text-white px-4 text-decoration-none">Menu Dulceria</a>
+              </li>
+              <li>
+                <a href="contactanos.html" class="text-white px-4 text-decoration-none">Contactanos</a>
+              </li>
+              <li>
+                <a href="about_us.html" class="text-white px-4 text-decoration-none">Acerca de nosotros</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+
+    <!-- Sección de película destacada -->
+    <section class="container my-5 featured-movie">
+        <div class="movie-image">
+            <img src="https://lumiere-a.akamaihd.net/v1/images/revenge-of-the-sith-20th-anniversary-theatrical-release_424b7382.jpeg?region=420,0,1080,1080" alt="Galaxia Oscura" class="rounded">
+        </div>
+        <div class="text-white">
+            <small class="text-secondary d-block mb-2">Acción / Ciencia Ficción / en exibicion </small>
+            <h3 class="display-4 fw-bold">la venganza de los sith (re estreno de aniversario)</h3>
+            <p class="lead">el elegido de la fuerza cae en el lado oscuro</p>
+            <button class="btn btn-custom btn-lg px-4 mt-3">reservar ahora</button>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <div class="row g-4">
+            <div class="col-12 text-center mb-4">
+                <h3 class="display-6 fw-bold">Próximos Estrenos</h3>
+            </div>
+
+            <!-- Películas en grid -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card movie-card bg-dark text-white h-100">
+                    <img src="https://www.lavanguardia.com/peliculas-series/images/movie/poster/2023/7/w1280/9yorYbegICBwZfXkjpx8MMHbDDc.jpg" alt="coyote vs acme" class="movie-poster w-100">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">coyote vs acme</h5>
+                        <p class="card-text text-secondary mb-1">animada / comedia</p>
+                        <small class="text-secondary">Estreno: 15 Octbre</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card movie-card bg-dark text-white h-100">
+                    <img src="https://static.wixstatic.com/media/2b52e5_fd25465d5f5d4773b047b6c72b9f3c3c~mv2.png/v1/fill/w_568,h_804,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/2b52e5_fd25465d5f5d4773b047b6c72b9f3c3c~mv2.png" alt="niku no puede cantar" class="movie-poster w-100">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Miku no puede cantar</h5>
+                        <p class="card-text text-secondary mb-1">anime/comedia/drama /rommance</p>
+                        <small class="text-secondary">en exibicion</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card movie-card bg-dark text-white h-100">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTYwOTNkMjEtNzQwMi00Y2ZiLTg2NTktYTJjZDdkMThkMmYwXkEyXkFqcGc@._V1_.jpg" alt="la tierra errante 2" class="movie-poster w-100">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">la tierra errante 2</h5>
+                        <p class="card-text text-secondary mb-1">ciencia ficcion/accion</p>
+                        <small class="text-secondary">Estreno: 3 Diciembre</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card movie-card bg-dark text-white h-100">
+                    <img src="https://pics.filmaffinity.com/La_batalla_del_lago_Changjin-220219303-large.jpg" class="movie-poster w-100">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">la batalla del lago changjim</h5>
+                        <p class="card-text text-secondary mb-1">belico/historico</p>
+                        <small class="text-secondary">Estreno: 10 agosto</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card movie-card bg-dark text-white h-100">
+                    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5298bac0-b8bf-4c80-af67-725c1272dbb0/dhygdma-db887cc0-b627-4c88-8986-6604a5f62a0b.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUyOThiYWMwLWI4YmYtNGM4MC1hZjY3LTcyNWMxMjcyZGJiMFwvZGh5Z2RtYS1kYjg4N2NjMC1iNjI3LTRjODgtODk4Ni02NjA0YTVmNjJhMGIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Id8KMYaVbEu12KZV87zuq6yhPEjjQZsIHpblzOhaIAs" alt="lilo y stitch" class="movie-poster w-100">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">lilo y stitch</h5>
+                        <p class="card-text text-secondary mb-1">live action/infantiles</p>
+                        <small class="text-secondary">Estreno: 25 mayo </small>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card movie-card bg-dark text-white h-100">
+                    <img src="https://m.media-amazon.com/images/I/612asTSwmcL._AC_UF894,1000_QL80_.jpg" alt="guerra de dragones" class="movie-poster w-100">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">guerra de dragones</h5>
+                        <p class="card-text text-secondary mb-1">Drama / Fantasía</p>
+                        <small class="text-secondary">Estreno: 17 septiembre</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card movie-card bg-dark text-white h-100">
+                    <img src="https://cinerama.es/wp-content/uploads/2024/09/MINECRAFT-1.jpg" alt="minecraft la pelicula" class="movie-poster w-100">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">minecraft la pelicula</h5>
+                        <p class="card-text text-secondary mb-1">live action / infantiles</p>
+                        <small class="text-secondary">en exibicion</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card movie-card bg-dark text-white h-100">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTQ4NDc1NTYwM15BMl5BanBnXkFtZTcwODY3MTUzMg@@._V1_.jpg" alt="batalla por terra" class="movie-poster w-100">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">batalla por terra</h5>
+                        <p class="card-text text-secondary mb-1">ciencia ficcion / animada</p>
+                        <small class="text-secondary">Estreno: 15 junio</small>
+                    </div>
+                </div>
+            </div>
+
+    
+
+       
+
+     
+
+         
+
+        </div>
+
+
+        
+    </section>
+    <footer class="bg-dark text-white mt-5">
+        <div class="container bg-dark py-4 rounded">
+          <div class="row">
+            <div class="col-md-6 mb-3 mb-md-0">
+              <h5 class="fw-bold">🎬 Cinema Theatre</h5>
+              <p class="mb-0">Tu lugar para disfrutar las mejores películas.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <p class="mb-1">Síguenos en redes:</p>
+              <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i> Facebook</a>
+              <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i> Twitter</a>
+              <a href="#" class="text-white"><i class="bi bi-instagram"></i> Instagram</a>
+            </div>
+          </div>
+          <hr class="border-top border-light mt-4">
+          <div class="text-center">
+            <small>&copy; 2025 Cinema Theatre. Todos los derechos reservados.</small>
+          </div>
+        </div>
+      </footer>
+    
+
+ 
+
 
 </body>
 </html>
+
+
