@@ -22,15 +22,20 @@
 body {
     background-color: var(--bs-main-bg);
     color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 .navbar {
     background-color: var(--bs-nav-bg);
+    padding: 1rem;
 }
 
 .movie-card {
     transition: transform 0.2s;
     height: 100%;
+    border-radius: 10px;
+    overflow: hidden; 
 }
 
 .movie-card:hover {
@@ -40,12 +45,16 @@ body {
 .movie-poster {
     background-size: cover;
     border-radius: 5px;
-    aspect-ratio: 2/3; 
+    aspect-ratio: 2/3;
+    width: 100%;
+    height: auto;
 }
 
 .btn-custom {
     background-color: #E50914;
     border-color: #E50914;
+    color: white;
+    font-weight: bold;
 }
 
 .btn-custom:hover {
@@ -53,49 +62,187 @@ body {
     border-color: #b80711;
 }
 
-@media (max-width: 768px) {
-    .movie-poster {
-        aspect-ratio: 16/9;
-    }
-}
-
-
 .featured-movie {
     display: flex;
     align-items: center;
     gap: 2rem;
-}
-
-.movie-image {
-    width: 30%; 
-    height: auto;
-    background: url('https://www.avcesar.com/source/actualites/00/00/6E/55/main_le-teaser-de-la-revanche-du-jedi_0830328.webp') no-repeat center center/cover;
-    border-radius: 10px;
-}
-
-.featured-movie {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+    padding: 2rem 0;
 }
 
 .movie-image img {
-    width: 100%; 
-    height: auto; 
-    border-radius: 10px; 
-    max-width: 400px; 
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    max-width: 400px;
 }
 
-@media (max-width: 768px) {
+
+
+@media (max-width: 100px) {
+    .movie-poster {
+        aspect-ratio: 16/9; 
+    }
+
     .featured-movie {
         flex-direction: column;
-        align-items: stretch;
+        align-items: center;
     }
 
     .movie-image {
-        width: 100%;
+        width: 100%; 
+        max-width: 100%; 
+    }
+
+    .movie-image img {
+        max-width: 100%; 
+        height: auto;
     }
 }
+
+
+@media (max-width: 200px) {
+    .movie-poster {
+        aspect-ratio: 16/9; 
+    }
+
+    .featured-movie {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-image {
+        width: 100%; 
+        max-width: 100%; 
+    }
+
+    .movie-image img {
+        max-width: 100%; 
+        height: auto;
+    }
+}
+
+
+
+
+@media (max-width: 480px) {
+    .movie-poster {
+        aspect-ratio: 16/9; 
+    }
+
+    .featured-movie {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-image {
+        width: 100%; 
+        max-width: 100%; 
+    }
+
+    .movie-image img {
+        max-width: 100%; 
+        height: auto;
+    }
+}
+
+@media (max-width: 375px) {
+    .movie-poster {
+        aspect-ratio: 16/9; 
+    }
+
+    .featured-movie {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-image {
+        width: 100%; 
+        max-width: 100%; 
+    }
+
+    .movie-image img {
+        max-width: 100%; 
+        height: auto;
+    }
+}
+
+
+
+@media (max-width: 390px) {
+    .movie-poster {
+        aspect-ratio: 16/9; 
+    }
+
+    .featured-movie {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-image {
+        width: 100%; 
+        max-width: 100%; 
+    }
+
+    .movie-image img {
+        max-width: 100%; 
+        height: auto;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .movie-poster {
+        aspect-ratio: 16/9; 
+    }
+
+    .featured-movie {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-image {
+        width: 100%; 
+        max-width: 100%; 
+    }
+
+    .movie-image img {
+        max-width: 100%; 
+        height: auto;
+    }
+}
+
+/* Para pantallas medianas (tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .movie-poster {
+        aspect-ratio: 3/2; 
+    }
+
+    .featured-movie {
+        gap: 1rem; 
+    }
+
+    .movie-image {
+        width: 40%; 
+    }
+}
+
+/* Para pantallas grandes (escritorio) */
+@media (min-width: 1025px) {
+    .movie-poster {
+        aspect-ratio: 2/3; 
+    }
+
+    .featured-movie {
+        gap: 2rem; 
+    }
+
+    .movie-image {
+        width: 30%; 
+    }
+}
+    
+  
 
 
     </style>
@@ -249,8 +396,10 @@ body {
          
 
         </div>
-    </section>
 
+
+        
+    </section>
     <footer class="bg-dark text-white mt-5">
         <div class="container bg-dark py-4 rounded">
           <div class="row">
@@ -271,6 +420,7 @@ body {
           </div>
         </div>
       </footer>
+    
 
  
 
