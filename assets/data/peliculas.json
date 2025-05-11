@@ -1,124 +1,139 @@
 [
-    {
-        "id": "1",
-        "nombre": "Colorful Stage: Miku no puede cantar",
-        "genero": "Animado",
-        "director": "Hata Hiroyuki",
-        "elenco": [
-            {
-                "nombre": "Fujita Saki",
-                "rol": "Voice Actor"
-            },
-            {
-                "nombre": "Noguchi Ruriko",
-                "rol": "Voice Actor"
-            },
-            {
-                "nombre": "Isobe Karin",
-                "rol": "Voice Actor"
-            }
-        ],
-        "productores": [
-            {
-                "nombre": "Mary Parent",
-                "rol": "Producer"
-            },
-            {
-                "nombre": "Roy Lee",
-                "rol": "Producer"
-            }
-        ],
-        "imagenes": [
-            "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png",
-            "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png",
-            "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png"
-        ],
-        "sinopsis": "Hatsune Miku, la icónica diva virtual, lucha por hacer llegar su música a todos, pero algo no está funcionando. Es entonces cuando se cruza con Ichika, una joven cantante con un talento único para tocar los corazones de las personas durante sus conciertos callejeros. Desesperada, Miku le pide ayuda para que su música alcance a aquellos que más la necesitan. Juntas, se embarcarán en una aventura mágica y musical que cambiará sus vidas para siempre. Y al terminar la película… No te pierdas el Mini-Concierto exclusivo de Hatsune Miku en Colorful Stage!",
-        "imagen": "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png",
-        "clasificacion": "A - Todo Público",
-        "duracion": "1:51",
-        "formato": "2D",
-        "subtitulo": "SUBTITLE",
-        "fechaEstreno": "2025-04-17",
-        "restricciones": "A - Todo Público",
-        "produccion": "-",
-        "horarios": [
-            {
-                "fecha": "2025-04-16",
-                "horas": [
-                    "14:00",
-                    "17:30",
-                    "20:00"
-                ]
-            },
-            {
-                "fecha": "2025-04-17",
-                "horas": [
-                    "15:00",
-                    "18:30"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "2",
-        "nombre": "Colorful Stage: Miku no puede cantar",
-        "genero": "Animado",
-        "director": "Hata Hiroyuki",
-        "elenco": [
-            {
-                "nombre": "Fujita Saki",
-                "rol": "Voice Actor"
-            },
-            {
-                "nombre": "Noguchi Ruriko",
-                "rol": "Voice Actor"
-            },
-            {
-                "nombre": "Isobe Karin",
-                "rol": "Voice Actor"
-            }
-        ],
-        "productores": [
-            {
-                "nombre": "Mary Parent",
-                "rol": "Producer"
-            },
-            {
-                "nombre": "Roy Lee",
-                "rol": "Producer"
-            }
-        ],
-        "imagenes": [
-            "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png",
-            "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png",
-            "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png"
-        ],
-        "sinopsis": "Hatsune Miku, la icónica diva virtual, lucha por hacer llegar su música a todos, pero algo no está funcionando. Es entonces cuando se cruza con Ichika, una joven cantante con un talento único para tocar los corazones de las personas durante sus conciertos callejeros. Desesperada, Miku le pide ayuda para que su música alcance a aquellos que más la necesitan. Juntas, se embarcarán en una aventura mágica y musical que cambiará sus vidas para siempre. Y al terminar la película… No te pierdas el Mini-Concierto exclusivo de Hatsune Miku en Colorful Stage!",
-        "imagen": "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png",
-        "clasificacion": "A - Todo Público",
-        "duracion": "1:51",
-        "formato": "2D",
-        "subtitulo": "SUBTITLE",
-        "fechaEstreno": "2025-04-17",
-        "restricciones": "A - Todo Público",
-        "produccion": "-",
-        "horarios": [
-            {
-                "fecha": "2025-04-16",
-                "horas": [
-                    "14:00",
-                    "17:30",
-                    "20:00"
-                ]
-            },
-            {
-                "fecha": "2025-04-17",
-                "horas": [
-                    "15:00",
-                    "18:30"
-                ]
-            }
-        ]
-    }
+  {
+    "id": "1",
+    "nombre": "Karate Kid: Leyendas",
+    "genero": "Acción",
+    "director": "Jonathan Entwistle",
+    "elenco": [
+      { "nombre": "Jackie Chan", "rol": "Actor" },
+      { "nombre": "Ben Wang", "rol": "Actor" },
+      { "nombre": "Ralph Macchio", "rol": "Actor" }
+    ],
+    "productores": [
+      { "nombre": "Will Smith", "rol": "Productor Ejecutivo" }
+    ],
+    "imagenes": [
+      "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1278_4.png"
+    ],
+    "sinopsis": "Dos generaciones se enfrentan y unen fuerzas en un nuevo capítulo lleno de acción y enseñanzas.",
+    "imagen": "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1278_4.png",
+    "clasificacion": "AA",
+    "duracion": "94 Minutos",
+    "formato": "2D",
+    "subtitulo": "SUBTITLE",
+    "fechaEstreno": "2025-04-25",
+    "restricciones": "AA",
+    "produccion": "Sony Pictures",
+    "horarios": [
+      { "fecha": "2025-04-25", "horas": ["13:00", "15:30", "18:00"] }
+    ]
+  },
+  {
+    "id": "2",
+    "nombre": "ADO SPECIAL LIVE \"Shinzou\"",
+    "genero": "Concierto",
+    "director": "Desconocido",
+    "elenco": [
+      { "nombre": "Ado", "rol": "Artista principal" }
+    ],
+    "productores": [],
+    "imagenes": [
+      "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1308_4.png"
+    ],
+    "sinopsis": "Un concierto animado que une música e historia desde Japón a la gran pantalla.",
+    "imagen": "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1308_4.png",
+    "clasificacion": "TBC",
+    "duracion": "140 Minutos",
+    "formato": "2D",
+    "subtitulo": "SUBTITLE",
+    "fechaEstreno": "2025-06-05",
+    "restricciones": "TBC",
+    "produccion": "Aniplex",
+    "horarios": [
+      { "fecha": "2025-06-05", "horas": ["17:00", "20:00"] }
+    ]
+  },
+  {
+    "id": "3",
+    "nombre": "Thunderbolts*",
+    "genero": "Superhéroes",
+    "director": "Jake Schreier",
+    "elenco": [
+      { "nombre": "Florence Pugh", "rol": "Yelena Belova" },
+      { "nombre": "Sebastian Stan", "rol": "Bucky Barnes" }
+    ],
+    "productores": [
+      { "nombre": "Kevin Feige", "rol": "Productor" }
+    ],
+    "imagenes": [
+      "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1268_4.png"
+    ],
+    "sinopsis": "Un equipo de antihéroes reclutado para misiones encubiertas por el gobierno.",
+    "imagen": "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1268_4.png",
+    "clasificacion": "AA",
+    "duracion": "127 Minutos",
+    "formato": "2D",
+    "subtitulo": "SUBTITLE",
+    "fechaEstreno": "2025-05-01",
+    "restricciones": "AA",
+    "produccion": "Marvel Studios",
+    "horarios": [
+      { "fecha": "2025-05-01", "horas": ["16:00", "19:00"] }
+    ]
+  },
+  {
+    "id": "4",
+    "nombre": "Una película de Minecraft",
+    "genero": "Aventura / Comedia",
+    "director": "Jared Hess",
+    "elenco": [
+      { "nombre": "Jason Momoa", "rol": "Protagonista" },
+      { "nombre": "Danielle Brooks", "rol": "Actriz" }
+    ],
+    "productores": [
+      { "nombre": "Roy Lee", "rol": "Productor" }
+    ],
+    "imagenes": [
+      "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1200_4.png"
+    ],
+    "sinopsis": "Los personajes del mundo de Minecraft se enfrentan a una aventura épica y divertida.",
+    "imagen": "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1200_4.png",
+    "clasificacion": "A - Todo Público",
+    "duracion": "100 Minutos",
+    "formato": "2D",
+    "subtitulo": "SUBTITLE",
+    "fechaEstreno": "2025-04-15",
+    "restricciones": "A - Todo Público",
+    "produccion": "Warner Bros",
+    "horarios": [
+      { "fecha": "2025-04-15", "horas": ["13:00", "16:00", "19:00"] }
+    ]
+  },
+  {
+    "id": "5",
+    "nombre": "Lilo y Stitch",
+    "genero": "Animación / Comedia",
+    "director": "Dean Fleischer Camp",
+    "elenco": [
+      { "nombre": "Zach Galifianakis", "rol": "Actor de voz" }
+    ],
+    "productores": [
+      { "nombre": "Dan Lin", "rol": "Productor" }
+    ],
+    "imagenes": [
+      "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/img_8747.jpeg"
+    ],
+    "sinopsis": "LILO Y STITCH es la conmovedora y divertidísima historia de una niña hawaiana y el alienígena fugitivo que la ayuda a reconstruir su familia..",
+    "imagen": "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1290_4.png",
+    "clasificacion": "TBC",
+    "duracion": "127 Minutos",
+    "formato": "2D",
+    "subtitulo": "SUBTITLE",
+    "fechaEstreno": "2025-05-22",
+    "restricciones": "TBC",
+    "produccion": "Disney",
+    "horarios": [
+      { "fecha": "2025-05-22", "horas": ["14:30", "17:30", "20:30"] }
+    ]
+  }
 ]

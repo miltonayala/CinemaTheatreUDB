@@ -52,9 +52,9 @@
                 <span class="text-white">${pelicula.nombre}</span>
               </nav>
   
-              <h2>${pelicula.nombre}</h2>
+              <h3 class="display-6 fw-bold">${pelicula.nombre}</h3>
               <div class="mb-3 text-secondary-custom">
-                ${pelicula.clasificacion} | ${pelicula.duracion} Horas | ${pelicula.formato} | ${pelicula.subtitulo}
+                ${pelicula.clasificacion} | ${pelicula.duracion} | ${pelicula.formato} | ${pelicula.subtitulo}
               </div>
   
               <p>${pelicula.sinopsis}</p>
@@ -101,7 +101,7 @@
           <div class="row g-3 flex-nowrap overflow-auto">
             ${peliculas.map(p => `
               <div class="col-8 col-sm-6 col-md-4 col-lg-3 col-xl-2 flex-shrink-0">
-                <a href="../pages/detalles.html?id=${p.id}" class="text-decoration-none text-white d-block text-center">
+                <a href="../pages/detalle.html?id=${p.id}" class="text-decoration-none text-white d-block text-center">
                   <img src="${p.imagen}" alt="${p.nombre}" class="img-fluid rounded mb-2 shadow-sm" style="height: 270px; object-fit: cover;">
                   <p class="mb-0 fw-semibold small">${p.nombre}</p>
                   <small class="text-secondary-custom">${p.duracion} | ${p.clasificacion}</small>
