@@ -77,7 +77,7 @@ body {
     max-width: 50%;
     height: auto;
     margin: 0 auto;
-    float: left;
+    /* float: left; */
 }
 
 #menu {
@@ -134,6 +134,7 @@ body {
     justify-content: flex-start;
     justify-items: center;
     flex-wrap: wrap;
+    width: 100%;
     gap: 1rem;
 }
 
@@ -141,6 +142,7 @@ body {
     background-color: #000000;
     box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.2);
     width: 175px;
+    margin: 0.5rem;
 }
 
 .contenedor-pelicula img {
@@ -151,12 +153,19 @@ body {
 }
 
 @media (max-width: 412px) {
-    .contenedor-pelicula {
-        width: 160px;
+    .peliculas {
+        max-width: 100%;  /* full width */
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;  /* keeps spacing */
+        justify-content: flex-start;
     }
 
-    .peliculas {
-        gap: 1rem 0;
+    .contenedor-pelicula {
+        flex: 0 0 calc(50% - 0.5rem); /* 2 items per row minus half the gap */
+        width: auto;  /* override fixed width */
+        margin: 0; /* optional to remove extra margin */
     }
 }
 
