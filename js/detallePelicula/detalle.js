@@ -10,7 +10,7 @@
       return;
     }
   
-    fetch("../assets/data/peliculas.json")
+    fetch("../assets/JSON/peliculas.json")
       .then((res) => {
         if (!res.ok) {
           throw new Error("Error al cargar los datos");
