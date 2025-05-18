@@ -14,7 +14,43 @@
     <div id="menu-container"></div>
     <h1 class="title"><i class="fa-solid fa-fire"></i> Lo mas popular</h1>
     <!-- Contenedor de imágenes con scroll horizontal -->
-    <div class="contenedor-scroll d-flex gap-4 px-4 py-3 overflow-auto">
+    <div class="position-relative">
+      <div class="scroll-arrow left-arrow" onclick="scrollScrollContainer(-1)">
+        <i class="bi bi-chevron-left"></i>
+      </div>
+      <div class="contenedor-scroll d-flex gap-4 px-4 py-3 overflow-auto" id="scrollContainer">
+      <div class="flex-shrink-0 position-relative w-contenedor-poster">
+      <div class="fondo-pelicula">
+      <a href="#" class="btn-comprar"><i class="fa-solid fa-plus"></i> Ver horarios</a>
+      </div>
+      <img src="https://cinemarkmedia.modyocdn.com/ca/300x400/103826.jpg?version=1747555200000"
+      class="cartelera-poster" />
+      </div>
+
+      <div class="flex-shrink-0 position-relative w-contenedor-poster">
+      <div class="fondo-pelicula">
+      <a href="#" class="btn-comprar"><i class="fa-solid fa-plus"></i> Ver horarios</a>
+      </div>
+      <img src="https://cinemarkmedia.modyocdn.com/ca/300x400/103880.jpg?version=1747555200000"
+      class="cartelera-poster" />
+      </div>
+
+      <div class="flex-shrink-0 position-relative w-contenedor-poster">
+      <div class="fondo-pelicula">
+      <a href="#" class="btn-comprar"><i class="fa-solid fa-plus"></i> Ver horarios</a>
+      </div>
+      <img src="https://cinemarkmedia.modyocdn.com/ca/300x400/104120.jpg?version=1747555200000"
+      class="cartelera-poster" />
+      </div>
+
+      <div class="flex-shrink-0 position-relative w-contenedor-poster">
+      <div class="fondo-pelicula">
+      <a href="#" class="btn-comprar"><i class="fa-solid fa-plus"></i> Ver horarios</a>
+      </div>
+      <img src="https://cinemarkmedia.modyocdn.com/ca/300x400/103852.jpg?version=1747555200000"
+      class="cartelera-poster" />
+      </div>
+
       <div class="flex-shrink-0 position-relative w-contenedor-poster">
         <div class="fondo-pelicula">
           <a href="#" class="btn-comprar"><i class="fa-solid fa-plus"></i> Ver horarios</a>
@@ -65,6 +101,10 @@
           class="cartelera-poster" />
       </div>
     </div>
+    <div class="scroll-arrow right-arrow" onclick="scrollScrollContainer(1)">
+  <i class="bi bi-chevron-right"></i>
+</div>
+</div>
 
     <h1 class="title">
       <i class="fa-solid fa-film"></i> Cartelera
@@ -133,6 +173,8 @@
   <script src="https://kit.fontawesome.com/3b0565d29c.js" crossorigin="anonymous"></script>
   <script src="../js/navbarLoader.js"></script>
       <script src="../js/footerLoader.js"></script>
+            <script src="../js/flechas.js"></script>
+
 
 </body>
 </html>
