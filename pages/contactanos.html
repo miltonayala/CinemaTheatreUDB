@@ -2,33 +2,48 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contáctanos - Estilo Cine</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <link href="../styles/mainStyle.css" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contáctanos - Estilo Cine</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link href="../styles/mainStyle.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div id="menu-container"></div>
-    <section class="cine-container">
-        <h2 class="large-title">Contáctanos</h2>
+  <div id="menu-container"></div>
 
-        <form class="formulario-cine">
-            <input type="text" class="input-cine" placeholder="Nombre" required>
-            <input type="email" class="input-cine" placeholder="Email" required>
-            <textarea class="input-cine" rows="5" placeholder="Mensaje" required></textarea>
-            <button type="submit" class="btn-general">Enviar Mensaje</button>
-        </form>
-    </section>
-    <div id="footer-container"></div>
+  <section class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6">
+          <div class="card-body p-4">
+            <h2 class="large-title text-center mb-4">🎬 Contáctanos</h2>
+            <form class="formulario-cine">
+              <div class="mb-3">
+<input type="text" class="form-control input-cine" placeholder="Nombre" required oninvalid="this.setCustomValidity('Por favor, ingresa tu nombre')" oninput="this.setCustomValidity('')">
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control input-cine" placeholder="Email" required oninvalid="this.setCustomValidity('Por favor, ingresa un correo electronico valido')" oninput="this.setCustomValidity('')"/>
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control input-cine" rows="5" placeholder="Mensaje" required oninvalid="this.setCustomValidity('Por favor escribe tu mensaje aqui')" oninput="this.setCustomValidity('')"></textarea>
+              </div>
+              <div class="d-grid">
+                <button type="submit" class="btn-general">
+                  <i class="bi bi-send-fill me-1"></i> Enviar Mensaje
+                </button>
+              </div>
+            </form>
+          </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="https://kit.fontawesome.com/3b0565d29c.js" crossorigin="anonymous"></script>
+  <div id="footer-container"></div>
+
+  <script src="https://kit.fontawesome.com/3b0565d29c.js" crossorigin="anonymous"></script>
   <script src="../js/navbarLoader.js"></script>
-      <script src="../js/footerLoader.js"></script>
-
+  <script src="../js/footerLoader.js"></script>
 </body>
-
 </html>

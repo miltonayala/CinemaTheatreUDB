@@ -5,38 +5,60 @@
     box-sizing: border-box;
 }
 
+/* ==== Text Area ==== */
+
+textarea {
+  resize: none;
+}
+
 /* ===== Base Styles ===== */
 body {
-    background-color: #020304;
+    background-color: #151c23;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ===== Typography ===== */
-.title {
-    margin-top: 0.5rem;
-    color: #f1f1f1;
-    padding: 1.2rem;
-    padding-bottom: 0.2rem;
-    font-weight: 600;
-    font-size: 1.2rem;
+/* ==== Logo Transiciones ==== */
+.transparent-logo {
+  transition: filter 0.3s ease;
 }
 
+
+.transparent-logo:hover {
+  filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.5));
+}
+
+/* ==== Menu Elements Transiciones ==== */
+.menu-highlight {
+    text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.menu-highlight:hover,
+.menu-highlight:focus {
+  color: #fff;
+  text-shadow: 0 0 5px rgba(255,255,255,0.6);
+  text-decoration: underline;
+  filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.5));
+}
+
+/* ===== Tipografia ===== */
 .large-title {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 1.3rem;
+    margin-bottom: 1.2rem;
     color: #f1f1f1;
     padding: 1.2rem;
     text-align: center;
     font-size: 2.5em;
-    letter-spacing: 2px;
-
 }
-
-.subtitle {
+.title {
+    margin-top: 0.3rem;
     color: #f1f1f1;
-    padding: 1.2rem;
-    padding-bottom: .2rem;
+    padding: 1rem;
+    padding-bottom: 0.2rem;
+    font-weight: 600;
+    font-size: 1.5rem;
 }
+
 
 .paragraph {
     color: #f1f1f1;
@@ -161,28 +183,32 @@ body {
 }
 
 /* ===== Buttons ===== */
+.btn-general {
+    background-color: #d4af37;
+    color: #1c1c1c;
+    border: 0px solid #333;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    padding: .6em .9rem;
+    transition: 0.2s;
+    }
+
 .btn-comprar {
     background-color: #d4af37;
+    border: 0px;
     display: block;
     text-decoration: none;
     color: #1c1c1c;
     border-radius: 4px;
-    font-size: 13px;
-    padding: .2rem .7rem;
+    font-size: 1rem;
+    padding: .4rem .7rem;
+          transition: 0.3s;
+
 }
 
-.btn-general {
-    background-color: #d4af37;
-    color: #1c1c1c;
-    border: 2px solid #333;
-    border-radius: 4px;
-    font-size: 1rem;
-    padding: .4rem .9rem;
-      transition: 0.3s;
-    }
 
 .btn-general:hover {
-    border-color: #D9C06E;
+    color: #ffffff;
       transition: 0.3s;
 }
 
@@ -192,13 +218,20 @@ body {
 }
 
 .btn-pelicula {
+    background-color: #d4af37;
+    display: block;
+    text-decoration: none;
+    color: #1c1c1c;
+    border-radius: 4px;
+    font-size: 14px;
     padding: .3rem 1rem;
     text-align: center;
-    display: block;
-    color: #1c1c1c;
-    background-color: #d4af37;
-    border-radius: 0.5rem;
+    transition: 0.2s;
+}
 
+.btn-pelicula:hover,
+.btn-pelicula:focus {
+    color: #fff;
 }
 
 
@@ -217,16 +250,16 @@ body {
 
 .input-cine {
     background: rgba(255, 255, 255, 0.1);
-    border: 2px solid #333;
+    border: 0px solid #333;
     padding: 15px;
     color: #fff;
     font-size: 16px;
-    border-radius: 0.5rem;
+    border-radius: 0.6rem;
 }
 
 .input-cine:focus {
     outline: none;
-    border-color: #D9C06E;
+    border: 2px solid #d4af37;
 }
 
 .info-cine {

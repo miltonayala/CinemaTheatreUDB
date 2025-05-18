@@ -19,9 +19,11 @@ body {
 }
 
 .movie-poster {
-    background-size: cover;
-    border-radius: 5px;
-    aspect-ratio: 2/3; 
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+  border-radius: 5px;
+  aspect-ratio: 2/3;
 }
 
 @media (max-width: 768px) {
@@ -40,7 +42,6 @@ body {
 .movie-image {
     width: 30%; 
     height: auto;
-    background: url('https://www.avcesar.com/source/actualites/00/00/6E/55/main_le-teaser-de-la-revanche-du-jedi_0830328.webp') no-repeat center center/cover;
     border-radius: 10px;
 }
 
