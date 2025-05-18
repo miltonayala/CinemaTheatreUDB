@@ -21,6 +21,17 @@ body {
     font-size: 1.2rem;
 }
 
+.large-title {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #f1f1f1;
+    padding: 1.2rem;
+    text-align: center;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+
+}
+
 .subtitle {
     color: #f1f1f1;
     padding: 1.2rem;
@@ -36,7 +47,6 @@ body {
 /* ===== Layout ===== */
 .content {
     width: 100%;
-    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -160,6 +170,16 @@ body {
     padding: .2rem .7rem;
 }
 
+.btn-general {
+    background-color: #d4af37;
+    display: block;
+    color: #1c1c1c;
+    border: solid 2px #f1f1f1;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: .4rem .9rem;
+}
+
 .btn-comprar:hover,
 .btn-comprar:focus {
     color: #fff;
@@ -168,8 +188,54 @@ body {
 .btn-pelicula {
     padding: .3rem 1rem;
     text-align: center;
-    text-decoration: none;
     display: block;
     color: #1c1c1c;
     background-color: #d4af37;
+    border-radius: 0.5rem;
+
 }
+
+
+        .cine-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+
+        .formulario-cine {
+            display: grid;
+            gap: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .input-cine {
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid #333;
+            padding: 15px;
+            color: #fff;
+            font-size: 16px;
+            border-radius:0.5rem;
+        }
+
+        .input-cine:focus {
+            outline: none;
+            border-color: #D9C06E;
+        }
+
+        .info-cine {
+            margin-top: 50px;
+            text-align: center;
+            opacity: 0.8;
+            line-height: 1.6;
+        }
+
+                @media (max-width: 768px) {
+            .titulo-cine {
+                font-size: 2em;
+            }
+
+            .formulario-cine {
+                padding: 0 20px;
+            }
+        }
