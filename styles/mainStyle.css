@@ -173,12 +173,17 @@ body {
 
 .btn-general {
     background-color: #d4af37;
-    display: block;
     color: #1c1c1c;
-    border: solid 2px #f1f1f1;
+    border: 2px solid #333;
     border-radius: 4px;
     font-size: 1rem;
     padding: .4rem .9rem;
+      transition: 0.3s;
+    }
+
+.btn-general:hover {
+    border-color: #D9C06E;
+      transition: 0.3s;
 }
 
 .btn-comprar:hover,
