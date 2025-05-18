@@ -132,6 +132,7 @@ body {
     .contenedor-pelicula {
         width: 160px;
     }
+
     .peliculas {
         gap: 1rem 0;
     }
@@ -196,46 +197,46 @@ body {
 }
 
 
-        .cine-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 50px 20px;
-        }
+.cine-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
 
-        .formulario-cine {
-            display: grid;
-            gap: 20px;
-            max-width: 600px;
-            margin: 0 auto;
-        }
+.formulario-cine {
+    display: grid;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
 
-        .input-cine {
-            background: rgba(255, 255, 255, 0.1);
-            border: 2px solid #333;
-            padding: 15px;
-            color: #fff;
-            font-size: 16px;
-            border-radius:0.5rem;
-        }
+.input-cine {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #333;
+    padding: 15px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 0.5rem;
+}
 
-        .input-cine:focus {
-            outline: none;
-            border-color: #D9C06E;
-        }
+.input-cine:focus {
+    outline: none;
+    border-color: #D9C06E;
+}
 
-        .info-cine {
-            margin-top: 50px;
-            text-align: center;
-            opacity: 0.8;
-            line-height: 1.6;
-        }
+.info-cine {
+    margin-top: 50px;
+    text-align: center;
+    opacity: 0.8;
+    line-height: 1.6;
+}
 
-                @media (max-width: 768px) {
-            .titulo-cine {
-                font-size: 2em;
-            }
+@media (max-width: 768px) {
+    .titulo-cine {
+        font-size: 2em;
+    }
 
-            .formulario-cine {
-                padding: 0 20px;
-            }
-        }
+    .formulario-cine {
+        padding: 0 20px;
+    }
+}
