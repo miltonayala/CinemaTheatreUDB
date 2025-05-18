@@ -1,124 +1,314 @@
 [
-    {
-        "id": "1",
-        "nombre": "Colorful Stage: Miku no puede cantar",
-        "genero": "Animado",
-        "director": "Hata Hiroyuki",
-        "elenco": [
-            {
-                "nombre": "Fujita Saki",
-                "rol": "Voice Actor"
-            },
-            {
-                "nombre": "Noguchi Ruriko",
-                "rol": "Voice Actor"
-            },
-            {
-                "nombre": "Isobe Karin",
-                "rol": "Voice Actor"
-            }
-        ],
-        "productores": [
-            {
-                "nombre": "Mary Parent",
-                "rol": "Producer"
-            },
-            {
-                "nombre": "Roy Lee",
-                "rol": "Producer"
-            }
-        ],
-        "imagenes": [
-            "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png",
-            "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png",
-            "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png"
-        ],
-        "sinopsis": "Hatsune Miku, la icónica diva virtual, lucha por hacer llegar su música a todos, pero algo no está funcionando. Es entonces cuando se cruza con Ichika, una joven cantante con un talento único para tocar los corazones de las personas durante sus conciertos callejeros. Desesperada, Miku le pide ayuda para que su música alcance a aquellos que más la necesitan. Juntas, se embarcarán en una aventura mágica y musical que cambiará sus vidas para siempre. Y al terminar la película… No te pierdas el Mini-Concierto exclusivo de Hatsune Miku en Colorful Stage!",
-        "imagen": "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png",
-        "clasificacion": "A - Todo Público",
-        "duracion": "1:51",
-        "formato": "2D",
-        "subtitulo": "SUBTITLE",
-        "fechaEstreno": "2025-04-17",
-        "restricciones": "A - Todo Público",
-        "produccion": "-",
-        "horarios": [
-            {
-                "fecha": "2025-04-16",
-                "horas": [
-                    "14:00",
-                    "17:30",
-                    "20:00"
-                ]
-            },
-            {
-                "fecha": "2025-04-17",
-                "horas": [
-                    "15:00",
-                    "18:30"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "2",
-        "nombre": "Colorful Stage: Miku no puede cantar",
-        "genero": "Animado",
-        "director": "Hata Hiroyuki",
-        "elenco": [
-            {
-                "nombre": "Fujita Saki",
-                "rol": "Voice Actor"
-            },
-            {
-                "nombre": "Noguchi Ruriko",
-                "rol": "Voice Actor"
-            },
-            {
-                "nombre": "Isobe Karin",
-                "rol": "Voice Actor"
-            }
-        ],
-        "productores": [
-            {
-                "nombre": "Mary Parent",
-                "rol": "Producer"
-            },
-            {
-                "nombre": "Roy Lee",
-                "rol": "Producer"
-            }
-        ],
-        "imagenes": [
-            "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png",
-            "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png",
-            "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png"
-        ],
-        "sinopsis": "Hatsune Miku, la icónica diva virtual, lucha por hacer llegar su música a todos, pero algo no está funcionando. Es entonces cuando se cruza con Ichika, una joven cantante con un talento único para tocar los corazones de las personas durante sus conciertos callejeros. Desesperada, Miku le pide ayuda para que su música alcance a aquellos que más la necesitan. Juntas, se embarcarán en una aventura mágica y musical que cambiará sus vidas para siempre. Y al terminar la película… No te pierdas el Mini-Concierto exclusivo de Hatsune Miku en Colorful Stage!",
-        "imagen": "https://assets.biggerpicture.ai/assets/HO-1610/eventmaster/1195_4.png",
-        "clasificacion": "A - Todo Público",
-        "duracion": "1:51",
-        "formato": "2D",
-        "subtitulo": "SUBTITLE",
-        "fechaEstreno": "2025-04-17",
-        "restricciones": "A - Todo Público",
-        "produccion": "-",
-        "horarios": [
-            {
-                "fecha": "2025-04-16",
-                "horas": [
-                    "14:00",
-                    "17:30",
-                    "20:00"
-                ]
-            },
-            {
-                "fecha": "2025-04-17",
-                "horas": [
-                    "15:00",
-                    "18:30"
-                ]
-            }
-        ]
-    }
+  {
+    "id": "1",
+    "nombre": "Final Destination 6",
+    "genero": "Terror",
+    "director": "Steven Quale",
+    "elenco": [
+      { "nombre": "Emma Bell", "rol": "Actor" },
+      { "nombre": "Nicholas D'Agosto", "rol": "Actor" },
+      { "nombre": "Tony Todd", "rol": "Actor" }
+    ],
+    "productores": [
+      { "nombre": "Craig Perry", "rol": "Producer" },
+      { "nombre": "Warren Zide", "rol": "Producer" }
+    ],
+    "imagenes": [
+      "https://cinemarkmedia.modyocdn.com/ca/300x400/103826.jpg?version=1747555200000"
+    ],
+    "sinopsis": "Un nuevo grupo de jóvenes intenta evadir a la Muerte tras una premonición catastrófica... pero ella siempre encuentra el camino.",
+    "imagen": "https://cinemarkmedia.modyocdn.com/ca/300x400/103826.jpg?version=1747555200000",
+    "clasificacion": "C - Mayores de 18",
+    "duracion": "1:40",
+    "formato": "2D",
+    "subtitulo": "SUBTITLE",
+    "fechaEstreno": "2025-07-01",
+    "restricciones": "Violencia intensa",
+    "produccion": "-",
+    "horarios": [
+      { "fecha": "2025-07-01", "horas": ["16:00", "19:00", "21:30"] },
+      { "fecha": "2025-07-02", "horas": ["14:00", "17:00", "20:00"] }
+    ]
+  },
+  {
+    "id": "2",
+    "nombre": "Mission Impossible",
+    "genero": "Acción",
+    "director": "Christopher McQuarrie",
+    "elenco": [
+      { "nombre": "Tom Cruise", "rol": "Actor" },
+      { "nombre": "Rebecca Ferguson", "rol": "Actor" },
+      { "nombre": "Simon Pegg", "rol": "Actor" }
+    ],
+    "productores": [
+      { "nombre": "J.J. Abrams", "rol": "Producer" },
+      { "nombre": "Tom Cruise", "rol": "Producer" }
+    ],
+    "imagenes": [
+      "https://cinemarkmedia.modyocdn.com/ca/300x400/103880.jpg?version=1747555200000"
+    ],
+    "sinopsis": "Ethan Hunt vuelve con una misión imposible más peligrosa que nunca, enfrentando traiciones y una amenaza global.",
+    "imagen": "https://cinemarkmedia.modyocdn.com/ca/300x400/103880.jpg?version=1747555200000",
+    "clasificacion": "B15",
+    "duracion": "2:15",
+    "formato": "2D",
+    "subtitulo": "SUBTITLE",
+    "fechaEstreno": "2025-06-25",
+    "restricciones": "-",
+    "produccion": "-",
+    "horarios": [
+      { "fecha": "2025-06-25", "horas": ["13:30", "17:00", "20:30"] }
+    ]
+  },
+  {
+    "id": "3",
+    "nombre": "Libera Nos",
+    "genero": "Documental",
+    "director": "Federica Di Giacomo",
+    "elenco": [
+      { "nombre": "Padre Cataldo", "rol": "Protagonista" }
+    ],
+    "productores": [
+      { "nombre": "Gabriele Giuliani", "rol": "Producer" }
+    ],
+    "imagenes": [
+      "https://cinemarkmedia.modyocdn.com/ca/300x400/104120.jpg?version=1747555200000"
+    ],
+    "sinopsis": "Un impactante documental sobre exorcismos en la Italia contemporánea, y la lucha espiritual entre el bien y el mal.",
+    "imagen": "https://cinemarkmedia.modyocdn.com/ca/300x400/104120.jpg?version=1747555200000",
+    "clasificacion": "B",
+    "duracion": "1:33",
+    "formato": "2D",
+    "subtitulo": "SUBTITLE",
+    "fechaEstreno": "2025-05-30",
+    "restricciones": "-",
+    "produccion": "-",
+    "horarios": [
+      { "fecha": "2025-05-30", "horas": ["15:00", "18:00"] }
+    ]
+  },
+  {
+    "id": "4",
+    "nombre": "Lilo & Stitch 2",
+    "genero": "Animado",
+    "director": "Michael LaBash",
+    "elenco": [
+      { "nombre": "Daveigh Chase", "rol": "Voice Actor" },
+      { "nombre": "Chris Sanders", "rol": "Voice Actor" }
+    ],
+    "productores": [
+      { "nombre": "Chris Chase", "rol": "Producer" }
+    ],
+    "imagenes": [
+      "https://cinemarkmedia.modyocdn.com/ca/300x400/103852.jpg?version=1747555200000"
+    ],
+    "sinopsis": "Stitch enfrenta un fallo en su programación que lo amenaza con volverse incontrolable. Lilo hará todo por salvarlo.",
+    "imagen": "https://cinemarkmedia.modyocdn.com/ca/300x400/103852.jpg?version=1747555200000",
+    "clasificacion": "A",
+    "duracion": "1:12",
+    "formato": "2D",
+    "subtitulo": "SUBTITLE",
+    "fechaEstreno": "2025-07-10",
+    "restricciones": "-",
+    "produccion": "-",
+    "horarios": [
+      { "fecha": "2025-07-10", "horas": ["10:00", "12:00", "14:00"] }
+    ]
+  },
+  {
+    "id": "5",
+    "nombre": "Peter Pan",
+    "genero": "Fantasía",
+    "director": "David Lowery",
+    "elenco": [
+      { "nombre": "Alexander Molony", "rol": "Actor" },
+      { "nombre": "Ever Anderson", "rol": "Actor" }
+    ],
+    "productores": [
+      { "nombre": "Jim Whitaker", "rol": "Producer" }
+    ],
+    "imagenes": [
+      "https://cinemarkmedia.modyocdn.com/ca/300x400/103145.jpg?version=1744934400000"
+    ],
+    "sinopsis": "Una nueva aventura mágica en el País de Nunca Jamás donde Peter Pan y sus amigos enfrentan al Capitán Garfio.",
+    "imagen": "https://cinemarkmedia.modyocdn.com/ca/300x400/103145.jpg?version=1744934400000",
+    "clasificacion": "A",
+    "duracion": "1:45",
+    "formato": "2D",
+    "subtitulo": "SUBTITLE",
+    "fechaEstreno": "2025-06-20",
+    "restricciones": "-",
+    "produccion": "-",
+    "horarios": [
+      { "fecha": "2025-06-20", "horas": ["11:00", "13:30", "16:00"] }
+    ]
+  },
+  {
+    "id": "6",
+    "nombre": "Until Dawn",
+    "genero": "Terror",
+    "director": "David Cage",
+    "elenco": [
+      { "nombre": "Rami Malek", "rol": "Actor" },
+      { "nombre": "Hayden Panettiere", "rol": "Actor" }
+    ],
+    "productores": [
+      { "nombre": "Jason Graves", "rol": "Producer" }
+    ],
+    "imagenes": [
+      "https://cinemarkmedia.modyocdn.com/ca/300x400/103211.jpg?version=1744934400000"
+    ],
+    "sinopsis": "Un grupo de jóvenes se reúne en una cabaña en las montañas, pero pronto descubren que alguien —o algo— los está cazando.",
+    "imagen": "https://cinemarkmedia.modyocdn.com/ca/300x400/103211.jpg?version=1744934400000",
+    "clasificacion": "C",
+    "duracion": "1:50",
+    "formato": "2D",
+    "subtitulo": "SUBTITLE",
+    "fechaEstreno": "2025-10-31",
+    "restricciones": "Violencia gráfica",
+    "produccion": "-",
+    "horarios": [
+      { "fecha": "2025-10-31", "horas": ["19:00", "22:00"] }
+    ]
+  },
+  {
+    "id": "7",
+    "nombre": "La Carga MAS Preciada",
+    "genero": "Drama",
+    "director": "Michel Hazanavicius",
+    "elenco": [
+      { "nombre": "Elena Anaya", "rol": "Actriz" },
+      { "nombre": "Luis Tosar", "rol": "Actor" }
+    ],
+    "productores": [
+      { "nombre": "Alain Goldman", "rol": "Producer" }
+    ],
+    "imagenes": [
+      "https://cinemarkmedia.modyocdn.com/ca/300x400/103187.jpg?version=1744934400000"
+    ],
+    "sinopsis": "Durante la guerra, una pareja encuentra un bebé judío y decide protegerlo, arriesgando todo.",
+    "imagen": "https://cinemarkmedia.modyocdn.com/ca/300x400/103187.jpg?version=1744934400000",
+    "clasificacion": "B",
+    "duracion": "1:43",
+    "formato": "2D",
+    "subtitulo": "SUBTITLE",
+    "fechaEstreno": "2025-05-05",
+    "restricciones": "-",
+    "produccion": "-",
+    "horarios": [
+      { "fecha": "2025-05-05", "horas": ["14:30", "17:00"] }
+    ]
+  },
+  {
+    "id": "8",
+    "nombre": "Tornado",
+    "genero": "Acción",
+    "director": "Jan de Bont",
+    "elenco": [
+      { "nombre": "Helen Hunt", "rol": "Actor" },
+      { "nombre": "Bill Paxton", "rol": "Actor" }
+    ],
+    "productores": [
+      { "nombre": "Kathleen Kennedy", "rol": "Producer" }
+    ],
+    "imagenes": [
+      "https://cinemarkmedia.modyocdn.com/ca/300x400/103157.jpg?version=1744934400000"
+    ],
+    "sinopsis": "Un grupo de científicos arriesga sus vidas para estudiar tornados en busca de prevenir desastres naturales.",
+    "imagen": "https://cinemarkmedia.modyocdn.com/ca/300x400/103157.jpg?version=1744934400000",
+    "clasificacion": "B",
+    "duracion": "1:53",
+    "formato": "2D",
+    "subtitulo": "SUBTITLE",
+    "fechaEstreno": "2025-07-22",
+    "restricciones": "-",
+    "produccion": "-",
+    "horarios": [
+      { "fecha": "2025-07-22", "horas": ["15:00", "18:00", "21:00"] }
+    ]
+  },
+  {
+    "id": "9",
+    "nombre": "Alarum",
+    "genero": "Ciencia Ficción",
+    "director": "Ana Lily Amirpour",
+    "elenco": [
+      { "nombre": "Tilda Swinton", "rol": "Actor" },
+      { "nombre": "Oscar Isaac", "rol": "Actor" }
+    ],
+    "productores": [
+      { "nombre": "Scott Rudin", "rol": "Producer" }
+    ],
+    "imagenes": [
+      "https://cinemarkmedia.modyocdn.com/ca/300x400/102998.jpg?version=1744934400000"
+    ],
+    "sinopsis": "En un futuro donde los sueños están prohibidos, una mujer lucha por recuperar su libertad mental.",
+    "imagen": "https://cinemarkmedia.modyocdn.com/ca/300x400/102998.jpg?version=1744934400000",
+    "clasificacion": "B15",
+    "duracion": "1:48",
+    "formato": "2D",
+    "subtitulo": "SUBTITLE",
+    "fechaEstreno": "2025-11-11",
+    "restricciones": "-",
+    "produccion": "-",
+    "horarios": [
+      { "fecha": "2025-11-11", "horas": ["17:00", "20:00"] }
+    ]
+  },
+  {
+    "id": "10",
+    "nombre": "El guardian de la Magia",
+    "genero": "Fantasía",
+    "director": "Guillermo del Toro",
+    "elenco": [
+      { "nombre": "Diego Luna", "rol": "Actor" },
+      { "nombre": "Salma Hayek", "rol": "Actor" }
+    ],
+    "productores": [
+      { "nombre": "Guillermo del Toro", "rol": "Producer" }
+    ],
+    "imagenes": [
+      "https://cinemarkmedia.modyocdn.com/ca/300x400/103464.jpg?version=1744934400000"
+    ],
+    "sinopsis": "Un joven aprendiz descubre que tiene la clave para proteger el equilibrio entre los mundos mágicos y humanos.",
+    "imagen": "https://cinemarkmedia.modyocdn.com/ca/300x400/103464.jpg?version=1744934400000",
+    "clasificacion": "A",
+    "duracion": "2:00",
+    "formato": "2D",
+    "subtitulo": "SUBTITLE",
+    "fechaEstreno": "2025-08-01",
+    "restricciones": "-",
+    "produccion": "-",
+    "horarios": [
+      { "fecha": "2025-08-01", "horas": ["11:30", "14:30", "17:30"] }
+    ]
+  },
+  {
+    "id": "11",
+    "nombre": "La Noche de los Hombres Lobo",
+    "genero": "Terror",
+    "director": "Leigh Whannell",
+    "elenco": [
+      { "nombre": "Anya Taylor-Joy", "rol": "Actriz" },
+      { "nombre": "Javier Bardem", "rol": "Actor" }
+    ],
+    "productores": [
+      { "nombre": "Blumhouse Productions", "rol": "Producer" }
+    ],
+    "imagenes": [
+      "https://cinemarkmedia.modyocdn.com/ca/300x400/103436.jpg?version=1744934400000"
+    ],
+    "sinopsis": "Una aldea olvidada se enfrenta a un antiguo linaje de hombres lobo cuando la luna llena despierta su maldición.",
+    "imagen": "https://cinemarkmedia.modyocdn.com/ca/300x400/103436.jpg?version=1744934400000",
+    "clasificacion": "C",
+    "duracion": "1:56",
+    "formato": "2D",
+    "subtitulo": "SUBTITLE",
+    "fechaEstreno": "2025-10-13",
+    "restricciones": "Violencia sobrenatural",
+    "produccion": "-",
+    "horarios": [
+      { "fecha": "2025-10-13", "horas": ["20:00", "23:00"] }
+    ]
+  }
 ]

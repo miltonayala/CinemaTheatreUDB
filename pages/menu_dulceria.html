@@ -14,14 +14,95 @@
 <body>
     <div class="bg-global overflow-hidden content">
         <div id="menu-container"></div>
+        <div id="foodCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000" data-bs-wrap="true">
+                <div class="carousel-indicators">
+        <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../assets/pictures/banners/1.avif" class="d-block w-100 carousel-image" alt="Food image 1">
+<div class="carousel-caption d-block">
+        <h5>¡Todos los miércoles!</h5>
+        <p>30% de descuento en dulcería</p>
+    </div>
+        </div>
+        <div class="carousel-item">
+            <img src="../assets/pictures/banners/2.webp" class="d-block w-100 carousel-image" alt="Food image 2">
+            <div class="carousel-caption d-block">
+  <h5>¡Todos los viernes!</h5>
+        <p>Cafe gratis por la compra de tu boleto</p>
+    </div>
+        </div>
+        <div class="carousel-item">
+            <img src="../assets/pictures/banners/3.jpeg" class="d-block w-100 carousel-image" alt="Food image 3">
+            <div class="carousel-caption d-block">
+        <h5>¡Todos los viernes!</h5>
+        <p>Refill de palomitas gratis (maximo 2)</p>
+    </div>
+        </div>
+                <div class="carousel-item">
+            <img src="../assets/pictures/banners/4.jpeg" class="d-block w-100 carousel-image" alt="Food image 3">
+            <div class="carousel-caption d-block">
+        <h5>Palomitas al 2x1</h5>
+        <p>Por la compra de tu palomita jumbo</p>
+    </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#foodCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#foodCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+    </button>
+</div>
         <div class="container my-5">
-            <h1 class="large-title mb-4">Menú de Comida</h1>
-            <section id="palomitas" class="mb-5">
-                <h2 class="title">🍿 Palomitas</h2>
+            <section id="combos" class="mb-5 ">
+                <h2 class="title">🐔 Combo pollón</h2>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-6 col-md-4 col-sm-4">
                         <div class="card">
-                            <img src="../pages/Images/Pequeñas.jpg" height="400" width="150" class="card-img-top"
+                            <img src="../assets/pictures/combo1-468x612.png" class="card-img-top" alt="Combo 1">
+                            <div class="card-body">
+                                <h5 class="card-title">El Caliente</h5>
+                                <p class="card-text">Soda + Hot Dog - $7.50</p>
+                                <button class="btn-comprar">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-sm-4">
+                        <div class="card">
+                            <img src="../assets/pictures/combo2-468x612.png" class="card-img-top" alt="Combo 1">
+                            <div class="card-body">
+                                <h5 class="card-title">El Nachito</h5>
+                                <p class="card-text">Soda + Nachos - $5.00</p>
+                                <button class="btn-comprar">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="col-6 col-md-4 col-sm-4">
+                        <div class="card">
+                            <img src="../assets/pictures/combo3-468x612.png" class="card-img-top" alt="Combo 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Elmer Homero</h5>
+                                <p class="card-text">Pilsener + Nachos, Hot Dog y Palomitas - $11.99</p>
+                                <button class="btn-comprar">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="palomitas" class="mb-5">
+                <h2 class="title">🍿 Pop Corn</h2>
+                <div class="row">
+                    <div class="col-6 col-md-3 col-sm-6">
+                        <div class="card">
+                            <img src="../assets/pictures/small-popcorn.jpg" class="card-img-top"
                                 alt="Palomitas pequeñas">
                             <div class="card-body">
                                 <h5 class="card-title"> Pequeñas </h5>
@@ -30,9 +111,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-6 col-md-3 col-sm-6">
                         <div class="card">
-                            <img src="../pages/Images/Medianas.jpg" height="400" width="150" class="card-img-top"
+                            <img src="../assets/pictures/popcorn-median.png" class="card-img-top"
                                 alt="Palomitas medianas">
                             <div class="card-body">
                                 <h5 class="card-title"> Medianas </h5>
@@ -41,13 +122,24 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-6 col-md-3 col-sm-6">
                         <div class="card">
-                            <img src="../pages/Images/Grandes.jpg" height="400" width="150" class="card-img-top"
+                            <img src="../assets/pictures/pop-corn-468x612.png" class="card-img-top"
                                 alt="Palomitas grandes">
                             <div class="card-body">
                                 <h5 class="card-title"> Grandes </h5>
                                 <p class="card-text">$7.00</p>
+                                <button class="btn-comprar">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="col-6 col-md-3 col-sm-6">
+                        <div class="card">
+                            <img src="../assets/pictures/popcorn-jumbo.jpg" class="card-img-top"
+                                alt="Palomitas grandes">
+                            <div class="card-body">
+                                <h5 class="card-title"> Jumbo</h5>
+                                <p class="card-text">$7.50</p>
                                 <button class="btn-comprar">Comprar</button>
                             </div>
                         </div>
@@ -57,34 +149,45 @@
             <section id="bebidas" class="mb-5">
                 <h2 class="title">🥤 Bebidas</h2>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-6 col-md-3 col-sm-4">
                         <div class="card">
-                            <img src="../pages/Images/Bebida.jpg" height="400" width="150" class="card-img-top"
+                            <img src="../assets/pictures/coca-cola-468x612.jpg" class="card-img-top"
                                 alt="Refresco pequeño">
                             <div class="card-body">
-                                <h5 class="card-title">Pequeño</h5>
+                                <h5 class="card-title">Soda pequeña</h5>
                                 <p class="card-text">$2.00</p>
                                 <button class="btn-comprar">Comprar</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-6 col-md-3 col-sm-4">
                         <div class="card">
-                            <img src="../pages/Images/Bebida.jpg" height="400" width="150" class="card-img-top"
+                            <img src="../assets/pictures/coca-cola-468x612.jpg" class="card-img-top"
                                 alt="Refresco mediano">
                             <div class="card-body">
-                                <h5 class="card-title">Mediano</h5>
+                                <h5 class="card-title">Soda mediana</h5>
                                 <p class="card-text">$3.50</p>
                                 <button class="btn-comprar">Comprar</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-6 col-md-3 col-sm-4">
                         <div class="card">
-                            <img src="../pages/Images/Bebida.jpg" height="400" width="150" class="card-img-top"
+                            <img src="../assets/pictures/coca-cola-468x612.jpg" class="card-img-top"
                                 alt="Refresco grande">
                             <div class="card-body">
-                                <h5 class="card-title"> Grandes </h5>
+                                <h5 class="card-title">Soda grande </h5>
+                                <p class="card-text">$5.00</p>
+                                <button class="btn-comprar">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="col-6 col-md-3 col-sm-4">
+                        <div class="card">
+                            <img src="../assets/pictures/agua-468x612.png" class="card-img-top"
+                                alt="Refresco grande">
+                            <div class="card-body">
+                                <h5 class="card-title">Agua cristal </h5>
                                 <p class="card-text">$5.00</p>
                                 <button class="btn-comprar">Comprar</button>
                             </div>
@@ -95,9 +198,9 @@
             <section id="snacks" class="mb-5">
                 <h2 class="title">🍟 Snacks</h2>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-6 col-md-3 col-sm-4">
                         <div class="card">
-                            <img src="../pages/Images/NachoQ.jpg" class="card-img-top" alt="Nachos con queso">
+                            <img src="../assets/pictures/nachos-468x612.jpg" class="card-img-top" alt="Nachos con queso">
                             <div class="card-body">
                                 <h5 class="card-title">Nachos</h5>
                                 <p class="card-text">$4.00</p>
@@ -105,9 +208,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-6 col-md-3 col-sm-4">
                         <div class="card">
-                            <img src="../pages/Images/Hot dog.jpg" class="card-img-top" alt="Hot Dog">
+                            <img src="../assets/pictures/hot-dog-468x612.jpg" class="card-img-top" alt="Hot Dog">
                             <div class="card-body">
                                 <h5 class="card-title">Hot Dog</h5>
                                 <p class="card-text">$3.50</p>
@@ -115,37 +218,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-6 col-md-3 col-sm-4">
                         <div class="card">
-                            <img src="../pages/Images/Chocolate.jpg" class="card-img-top" alt="Chocolates">
+                            <img src="../assets/pictures/Chocolate468x612.jpg" class="card-img-top" alt="Chocolates">
                             <div class="card-body">
                                 <h5 class="card-title">Chocolates</h5>
                                 <p class="card-text">$2.50</p>
-                                <button class="btn-comprar">Comprar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="combos" class="mb-5">
-                <h2 class="title">🐔 Combo pollón</h2>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="card">
-                            <img src="../pages/Images/Combo1.jpg" class="card-img-top" alt="Combo 1">
-                            <div class="card-body">
-                                <h5 class="card-title">Combo 1</h5>
-                                <p class="card-text">Palomitas + Refresco - $7.50</p>
-                                <button class="btn-comprar">Comprar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card">
-                            <img src="../pages/Images/Combo2.jpg" class="card-img-top" alt="Combo 2">
-                            <div class="card-body">
-                                <h5 class="card-title">Combo 2</h5>
-                                <p class="card-text">Hot dog + soda - $5.00</p>
                                 <button class="btn-comprar">Comprar</button>
                             </div>
                         </div>

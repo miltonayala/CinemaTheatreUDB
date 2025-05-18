@@ -23,7 +23,7 @@ body {
 }
 
 
-.transparent-logo:hover {
+.transparent-logo:hover, .transparent-logo:focus {
   filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.5));
 }
 
@@ -131,7 +131,7 @@ body {
 
 .peliculas {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     justify-items: center;
     flex-wrap: wrap;
     gap: 1rem;
@@ -204,6 +204,24 @@ body {
     padding: .4rem .7rem;
           transition: 0.3s;
 
+}
+
+.btn-ordenar-square {
+    background-color: #d4af37;
+    border: 0px;
+    display: block;
+    filter: drop-shadow(0 -3mm 1.5rem rgb(0, 0, 0));
+    text-decoration: none;
+    color: #1c1c1c;
+    font-size: 1rem;
+    padding: .4rem .7rem;
+    transition: 0.3s;
+
+}
+
+.btn-ordenar-square:hover,
+.btn-ordenar-square:focus {
+    color: #fff;
 }
 
 
